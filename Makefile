@@ -2,7 +2,7 @@ NAME 		= push_swap
 
 LIBFTPRINTF	= ./ft_printf/libftprintf.a
 
-SRCS		= ./srcs/main.c ./srcs/ft_stack/ft_stackadd_back.c ./srcs/ft_stack/ft_stackadd_front.c \
+SRCS		= ./srcs/main.c ./srcs/ft_stack/ft_stackadd_back.c \
 			./srcs/ft_stack/ft_stacklast.c ./srcs/ft_stack/ft_stacknew.c  ./srcs/test_error.c \
 			./srcs/push_atoi.c ./srcs/macro_operations.c ./srcs/macro_error.c ./srcs/operations.c \
 			./srcs/operations2.c ./srcs/operations3.c ./srcs/prepare_for_sort.c ./srcs/bits.c \

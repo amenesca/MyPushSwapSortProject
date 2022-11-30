@@ -6,7 +6,7 @@
 /*   By: amenesca <amenesca@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 19:45:54 by amenesca          #+#    #+#             */
-/*   Updated: 2022/11/29 19:46:52 by amenesca         ###   ########.fr       */
+/*   Updated: 2022/11/30 15:26:53 by amenesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ typedef struct s_stack
 }					t_stack;
 
 void		ft_stackadd_back(t_stack **lst, t_stack *new);
-void		ft_stackadd_front(t_stack **lst, t_stack *new);
 t_stack		*ft_stacklast(t_stack *lst);
 t_stack		*ft_stacknew(int content);
 void		test_args(char **str, int *digit, int *signal);
