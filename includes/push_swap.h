@@ -47,7 +47,6 @@ int			rev_rotate_r(t_stack **stack_a, t_stack **stack_b);
 int			is_ascending_order(t_stack **head);
 void		free_stack(t_stack **stack);
 void		prepare_for_sort(int argc, t_stack **head);
-int			ft_atoi_new(const char *str);
 int			int_arr_len(int *int_arr);
 int			find_most_sig(int nbr);
 void		push_swap(t_stack **stack_a, t_stack **stack_b, int n);
