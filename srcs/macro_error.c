@@ -35,6 +35,8 @@ void	test_args(char **str, int *digit, int *signal)
 				*digit = -1;
 			if (j > 0 && (str[i][j] == '-' || str[i][j] == '+'))
 				*signal = -1;
+			if (str[i][1] == '\0' && (str[i][0] == '-' || str[i][0] == '+'))
+				*signal = -1;
 		}
 	}
 }
