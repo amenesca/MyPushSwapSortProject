@@ -6,36 +6,16 @@ depending on wich sort algorithm the code is using, I made using radix sort.<br>
 
 Usage:<br>
 compile using make.<br><br>
-&gt; ./push_swap 4 29 18 5 1 84<br>
-ra<br>
-pb<br>
-ra<br>
-pb<br>
-pb<br>
-ra<br>
-pa<br>
-pa<br>
-pa<br>
-pb<br>
+&gt; ./push_swap 4 29 18 5 1<br>
 ra<br>
 pb<br>
 pb<br>
 ra<br>
-pb<br>
-pa<br>
-pa<br>
-pa<br>
 pa<br>
 ra<br>
-pb<br>
-pb<br>
+pa<br>
 ra<br>
-pb<br>
-pb<br>
-pa<br>
-pa<br>
-pa<br>
-pa<br>
 
 The output is the operations realized.<br>
-you can count with ./push_swap 4 29 18 5 1 84 | wc -l
+you can count with ./push_swap 4 29 18 5 1 84 | wc -l<br>
+that should be 8
